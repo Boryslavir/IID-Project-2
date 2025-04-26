@@ -1,41 +1,27 @@
-body {
-    background: lightgrey;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-body section {
-    display: flex;
-    flex-direction: column;
-    padding: 1rem 0;
-}
-
-section div.header-section {
+body section div.header-section {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-section div.header-section h1 {
+body section div.header-section h1 {
     font-size: 1.5rem;
 }
 
-section div.body-section {
+body section div.body-section {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
 
-section div.body-section div.body-left-part img,
-section div.body-section div.body-middle-part img,
-section div.body-section div.body-right-part img {
+body section div.body-section div.body-left-part img,
+body section div.body-section div.body-middle-part img,
+body section div.body-section div.body-right-part img {
     width: 25vw;
     height: auto;
 }
 
-
-section div.body-section div.body-middle-part img {
+body section div.body-section div.body-middle-part img {
     width: 15vw;
 }

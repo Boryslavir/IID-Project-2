@@ -1,10 +1,3 @@
-body {
-    background: lightgrey;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
 body section div.content-box-container {
     display: flex;
     flex-direction: column;
@@ -12,68 +5,39 @@ body section div.content-box-container {
 }
 
 body section div.content-box-container div.content-box-1,
-body section div.content-box-container div.content-box-3 {
+body section div.content-box-container div.content-box-2,
+body section div.content-box-container div.content-box-3,
+body section div.content-box-container div.content-box-4 {
     display: flex;
     flex-direction: row;
-    background: coral;
+    background: lightgrey;
     margin: 0rem 0.5rem 1rem 0.5rem;
 }
 
 body section div.content-box-container div.content-box-1 div.content-box-1-image,
-body section div.content-box-container div.content-box-3 div.content-box-3-image {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-body section div.content-box-container div.content-box-1 div.content-box-1-image img,
-body section div.content-box-container div.content-box-3 div.content-box-3-image img {
-    width: 23rem;
-    height: auto;
-}
-
-body section div.content-box-container div.content-box-1 div.content-box-1-info,
-body section div.content-box-container div.content-box-3 div.content-box-3-info {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 0 1.5rem;
-    word-wrap: normal;
-}
-
-body section div.content-box-container div.content-box-1 div.content-box-1-info div.content-box-1-info-footer,
-body section div.content-box-container div.content-box-3 div.content-box-3-info div.content-box-3-info-footer {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-}
-
-body section div.content-box-container div.content-box-2,
-body section div.content-box-container div.content-box-4 {
-    display: flex;
-    flex-direction: row;
-    background: coral;
-    margin: 0rem 0.5rem 1rem 0.5rem;
-}
-
 body section div.content-box-container div.content-box-2 div.content-box-2-image,
+body section div.content-box-container div.content-box-3 div.content-box-3-image,
 body section div.content-box-container div.content-box-4 div.content-box-4-image {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
+body section div.content-box-container div.content-box-1 div.content-box-1-image img,
 body section div.content-box-container div.content-box-2 div.content-box-2-image img,
+body section div.content-box-container div.content-box-3 div.content-box-3-image img,
 body section div.content-box-container div.content-box-4 div.content-box-4-image img {
-    width: 28rem;
+    width: 30rem;
     height: auto;
 }
 
+body section div.content-box-container div.content-box-1 div.content-box-1-info,
 body section div.content-box-container div.content-box-2 div.content-box-2-info,
+body section div.content-box-container div.content-box-3 div.content-box-3-info,
 body section div.content-box-container div.content-box-4 div.content-box-4-info {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 0 1.5rem;
     word-wrap: normal;
 }
@@ -83,6 +47,34 @@ body section div.content-box-container div.content-box-2 div.content-box-2-info 
 body section div.content-box-container div.content-box-3 div.content-box-3-info p,
 body section div.content-box-container div.content-box-4 div.content-box-4-info p {
     text-align: justify;
+}
+
+body section div.content-box-container div.content-box-1 div.content-box-1-info div.content-box-1-info-header,
+body section div.content-box-container div.content-box-3 div.content-box-3-info div.content-box-3-info-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+body section div.content-box-container div.content-box-1 div.content-box-1-info div.content-box-1-info-footer,
+body section div.content-box-container div.content-box-3 div.content-box-3-info div.content-box-3-info-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+body section div.content-box-container div.content-box-2 div.content-box-2-info div.content-box-2-info-header,
+body section div.content-box-container div.content-box-4 div.content-box-4-info div.content-box-4-info-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+body section div.content-box-container div.content-box-2 div.content-box-2-info div.content-box-2-info-footer,
+body section div.content-box-container div.content-box-4 div.content-box-4-info div.content-box-4-info-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
 }
 
 body section div.content-box-container div.content-box-1 div.content-box-1-info div.content-box-1-info-footer a p,
