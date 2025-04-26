@@ -27,7 +27,7 @@ body section div.content-box-container div.content-box-1 div.content-box-1-image
 body section div.content-box-container div.content-box-2 div.content-box-2-image img,
 body section div.content-box-container div.content-box-3 div.content-box-3-image img,
 body section div.content-box-container div.content-box-4 div.content-box-4-image img {
-    width: 30rem;
+    width: 25vw;
     height: auto;
 }
 
