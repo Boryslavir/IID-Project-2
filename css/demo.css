@@ -1,13 +1,17 @@
 body section div.demo-box-container {
+    /* Use flexbox for layout */
     display: flex;
     flex-direction: column;
+    /* Center items horizontally */
     align-items: center;
 }
 
 body section div.demo-box-container div.body-header-part {
+    /* Add padding to the bottom */
     padding-bottom: 1rem;
 }
 
 body section div.demo-box-container div.body-header-part p {
+    /* Justify text */
     text-align: justify;
 }

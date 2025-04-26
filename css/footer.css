@@ -1,14 +1,19 @@
 body footer {
+    /* Use flexbox for layout */
     display: flex;
     flex-direction: column;
+    /* Center items horizontally */
     align-items: center;
+    /* Set a background color */
     background: lightsteelblue;
 }
 
 body footer p {
+    /* Make text bold */
     font-weight: bold;
 }
 
 body footer a {
+    /* Add padding to the top and bottom */
     padding: 1rem 0;
 }

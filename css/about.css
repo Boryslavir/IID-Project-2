@@ -1,6 +1,8 @@
 body section div.content-box-container {
+    /* Use flexbox for layout */
     display: flex;
     flex-direction: column;
+    /* Add padding to the top and bottom */
     padding: 1rem 0;
 }
 
@@ -8,9 +10,12 @@ body section div.content-box-container div.content-box-1,
 body section div.content-box-container div.content-box-2,
 body section div.content-box-container div.content-box-3,
 body section div.content-box-container div.content-box-4 {
+    /* Use flexbox for layout */
     display: flex;
     flex-direction: row;
+    /* Set a background color */
     background: lightgrey;
+    /* Add margin */
     margin: 0rem 0.5rem 1rem 0.5rem;
 }
 
@@ -18,8 +23,10 @@ body section div.content-box-container div.content-box-1 div.content-box-1-image
 body section div.content-box-container div.content-box-2 div.content-box-2-image,
 body section div.content-box-container div.content-box-3 div.content-box-3-image,
 body section div.content-box-container div.content-box-4 div.content-box-4-image {
+    /* Use flexbox for layout */
     display: flex;
     flex-direction: column;
+    /* Center items vertically */
     justify-content: center;
 }
 
@@ -27,6 +34,7 @@ body section div.content-box-container div.content-box-1 div.content-box-1-image
 body section div.content-box-container div.content-box-2 div.content-box-2-image img,
 body section div.content-box-container div.content-box-3 div.content-box-3-image img,
 body section div.content-box-container div.content-box-4 div.content-box-4-image img {
+    /* Set width and height */
     width: 25vw;
     height: auto;
 }
@@ -35,10 +43,14 @@ body section div.content-box-container div.content-box-1 div.content-box-1-info,
 body section div.content-box-container div.content-box-2 div.content-box-2-info,
 body section div.content-box-container div.content-box-3 div.content-box-3-info,
 body section div.content-box-container div.content-box-4 div.content-box-4-info {
+    /* Use flexbox for layout */
     display: flex;
     flex-direction: column;
+    /* Distribute space evenly */
     justify-content: space-evenly;
+    /* Add padding */
     padding: 0 1.5rem;
+    /* Allow text to wrap normally */
     word-wrap: normal;
 }
 
@@ -46,34 +58,43 @@ body section div.content-box-container div.content-box-1 div.content-box-1-info 
 body section div.content-box-container div.content-box-2 div.content-box-2-info p,
 body section div.content-box-container div.content-box-3 div.content-box-3-info p,
 body section div.content-box-container div.content-box-4 div.content-box-4-info p {
+    /* Justify text */
     text-align: justify;
 }
 
 body section div.content-box-container div.content-box-1 div.content-box-1-info div.content-box-1-info-header,
 body section div.content-box-container div.content-box-3 div.content-box-3-info div.content-box-3-info-header {
+    /* Use flexbox for layout */
     display: flex;
     flex-direction: row;
+    /* Align items to the start */
     justify-content: flex-start;
 }
 
 body section div.content-box-container div.content-box-1 div.content-box-1-info div.content-box-1-info-footer,
 body section div.content-box-container div.content-box-3 div.content-box-3-info div.content-box-3-info-footer {
+    /* Use flexbox for layout */
     display: flex;
     flex-direction: row;
+    /* Align items to the end */
     justify-content: flex-end;
 }
 
 body section div.content-box-container div.content-box-2 div.content-box-2-info div.content-box-2-info-header,
 body section div.content-box-container div.content-box-4 div.content-box-4-info div.content-box-4-info-header {
+    /* Use flexbox for layout */
     display: flex;
     flex-direction: row;
+    /* Align items to the end */
     justify-content: flex-end;
 }
 
 body section div.content-box-container div.content-box-2 div.content-box-2-info div.content-box-2-info-footer,
 body section div.content-box-container div.content-box-4 div.content-box-4-info div.content-box-4-info-footer {
+    /* Use flexbox for layout */
     display: flex;
     flex-direction: row;
+    /* Align items to the start */
     justify-content: flex-start;
 }
 
@@ -81,5 +102,6 @@ body section div.content-box-container div.content-box-1 div.content-box-1-info 
 body section div.content-box-container div.content-box-2 div.content-box-2-info div.content-box-2-info-footer a p,
 body section div.content-box-container div.content-box-3 div.content-box-3-info div.content-box-3-info-footer a p,
 body section div.content-box-container div.content-box-4 div.content-box-4-info div.content-box-4-info-footer a p {
+    /* Set text color */
     color: var(--foreground-100);
 }

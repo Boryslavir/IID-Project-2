@@ -1,22 +1,29 @@
 body section div.body-section {
+    /* Use flexbox for layout */
     display: flex;
     flex-direction: row;
+    /* Distribute space between items */
     justify-content: space-between;
+    /* Center items vertically */
     align-items: center;
 }
 
 body section div.body-section div.body-middle-part {
+    /* Use flexbox for layout */
     display: flex;
     flex-direction: column;
+    /* Center items horizontally */
     align-items: center;
 }
 
 body section div.body-section div.body-middle-part h1 {
+    /* Set font size */
     font-size: 1.75rem;
 }
 
 body section div.body-section div.body-left-part img,
 body section div.body-section div.body-right-part img {
+    /* Set width and height */
     width: 28vw;
     height: auto;
 }
