@@ -5,7 +5,7 @@ My website is created based on a rhythm game that I like to played whenever I ha
 ## Development Process
 Using the original low-fidelity prototypes created from previous assignment,
 <p align="center" width="100%">
-    <img width="50%" src="img/Low-fidelity prototype.webp">
+    <img src="img/Low-fidelity prototype.webp">
 </p>
 I will then leverage the use of HTML and CSS codes structuring and styling the website respectively. This website consists of three main pages: **Home**, **About**, and **Demo**. Effectively, each page was designed to provide specific information about the game and its modes. To be able to do this, I used various tools and resources to aid in the development process including online tutorials, W3C documentation, and community forums (StackOverFlow, Reddit, etc). By taking adventages of it, I can understand best practices and troubleshoot any issues that might arose during my website implementation progress.
 
