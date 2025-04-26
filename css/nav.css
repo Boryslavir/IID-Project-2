@@ -9,7 +9,6 @@ body nav {
 body nav div.left-side-navigation a,
 body nav div.right-side-navigation a {
     padding: 0 3.5rem;
-    text-decoration: none;
 }
 
 body nav div.middle-side-navigation img {

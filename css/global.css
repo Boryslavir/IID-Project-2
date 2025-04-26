@@ -1,0 +1,17 @@
+/* https://uxdesign.cc/defining-colors-in-your-design-system-828148e6210a */
+:root {
+    /* Primary color: Navy */
+    --primary-100: #102937;
+    /* Secondary color: Teal */
+    --secondary-100: #124d54;
+    /* Accent color: Orange */
+    --accent-100: #f9744b;
+    /* Foreground color: Dark Navy for text */
+    --foreground-100: #091d26;
+    /* Background color: Off-white */
+    --background-100: #f0f0f0;
+}
+
+a {
+    text-decoration: none;
+}

@@ -28,7 +28,7 @@ body section div.content-box-container div.content-box-3 div.content-box-3-image
 
 body section div.content-box-container div.content-box-1 div.content-box-1-image img,
 body section div.content-box-container div.content-box-3 div.content-box-3-image img {
-    width: 21rem;
+    width: 23rem;
     height: auto;
 }
 
@@ -89,5 +89,5 @@ body section div.content-box-container div.content-box-1 div.content-box-1-info 
 body section div.content-box-container div.content-box-2 div.content-box-2-info div.content-box-2-info-footer a p,
 body section div.content-box-container div.content-box-3 div.content-box-3-info div.content-box-3-info-footer a p,
 body section div.content-box-container div.content-box-4 div.content-box-4-info div.content-box-4-info-footer a p {
-    color: black;
+    color: var(--foreground-100);
 }
