@@ -1,22 +1,13 @@
-body {
-    background: lightgrey;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
 body section div.demo-box-container {
     display: flex;
     flex-direction: column;
-    padding: 1rem 0;
+    align-items: center;
+}
+
+body section div.demo-box-container div.body-header-part {
+    padding-bottom: 1rem;
 }
 
 body section div.demo-box-container div.body-header-part p {
     text-align: justify;
-}
-
-body section div.demo-box-container div.body-footer-part {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
 }
