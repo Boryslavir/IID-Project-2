@@ -1,6 +1,14 @@
-footer {
+body footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: lightblue;
+    background: lightsteelblue;
+}
+
+body footer p {
+    font-weight: bold;
+}
+
+body footer a {
+    padding: 1rem 0;
 }
